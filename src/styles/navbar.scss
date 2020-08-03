@@ -1,0 +1,29 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: max-content;
+    background-color: gray;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    padding: 14px 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.active {
+    background-color: yellowgreen;
+}

@@ -1,5 +1,20 @@
 import React from "react"
+import Layout from "../components/layout"
+import "bootstrap/dist/css/bootstrap.css"
+import Head from "../components/head"
 
-export default function Home() {
-  return <div>Hello world!</div>
+const Index = () => {
+  return (
+    <>
+      <Layout>
+        <Head title="Home" />
+        <h1>Hello World</h1>
+        <h3>
+          My name is <em>Trey Boston</em>
+        </h3>
+      </Layout>
+    </>
+  )
 }
+
+export default Index

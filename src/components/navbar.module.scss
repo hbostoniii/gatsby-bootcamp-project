@@ -1,0 +1,54 @@
+.header {
+    padding: 1rem 0 3rem;
+}
+
+.title {
+    color: black;
+    font-size: 3rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.title:hover {
+    text-decoration: none;
+}
+
+.nav-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    list-style: none;
+    background-color: lightgray;
+    justify-content: center;
+    align-content: center;
+}
+
+.nav-list li {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    display: flex;
+    height: 100%;
+    color: gray;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.nav-item:hover {
+    color: lighten($color: gray, $amount: 50);
+    background-color: darken($color: lightgray, $amount: 50);
+    text-decoration: none;
+}
+
+.active-nav-item {
+    background-color: darken($color: gray, $amount: 20);
+    color: lighten($color: lightgray, $amount: 20)
+}
