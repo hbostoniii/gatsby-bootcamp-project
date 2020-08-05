@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../components/layout"
-import "bootstrap/dist/css/bootstrap.css"
 import Head from "../components/head"
 
 const Index = () => {
